@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F7F5F2;
+  --foreground: #111111;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-dm-sans), sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global divider utility */
+.mirra-divider {
+  border-bottom: 1px solid #E0DDD8;
+}
+
+.mirra-divider-vertical {
+  border-right: 1px solid #E0DDD8;
+}
